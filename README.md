@@ -1,6 +1,8 @@
 
 ## To reproduce
 
+ * https://community.sonarsource.com/t/error-unable-to-parse-source-file-a-switch-expression-should-have-a-default-case/81431
+ 
 ### Start SonarQube
 ```
 docker run -d --rm \
