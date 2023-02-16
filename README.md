@@ -17,7 +17,7 @@ docker run -d --rm \
 ```
 /opt/maven/apache-maven-3.8.7/bin/mvn -q clean package
 /opt/maven/apache-maven-3.8.7/bin/mvn -q sonar:sonar \
-    -Dsonar.url=http://localhost:9000 \
+    -Dsonar.host.url=http://localhost:9000 \
     -Dsonar.login=admin \
     -Dsonar.password=admin
 [ERROR] Unable to parse source file : 'module2/src/main/java/org/example/module2/Foo1.java'
@@ -28,7 +28,7 @@ docker run -d --rm \
 
 ```
 /opt/maven/apache-maven-3.8.7/bin/mvn -q clean package sonar:sonar \
-    -Dsonar.url=http://localhost:9000 \
+    -Dsonar.host.url=http://localhost:9000 \
     -Dsonar.login=admin \
     -Dsonar.password=admin
 
